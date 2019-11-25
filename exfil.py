@@ -89,3 +89,4 @@ if __name__ == "__main__":
     loginToAdmin(serialConnection, login, password)
     print('Login complete - Attempting exfil...')
     exfilFile(serialConnection, args.file)
+    print('Exfil complete... file written to exfiled_files' + args.file)
