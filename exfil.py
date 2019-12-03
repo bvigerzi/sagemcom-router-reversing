@@ -73,8 +73,8 @@ def exfilFile(serialConnection, absoluteFilePath: str):
 
 
 def cleanExfiledOutput(resultingBytes: bytearray, commandLength: int):
-    paddingAfterCommand = 2
-    trailingInputCarrotLength = 3
+    paddingAfterCommand = 2  # "\r\n"
+    trailingInputCarrotLength = 3  # " > "
     endOfCommand = commandLength + paddingAfterCommand
     return resultingBytes[endOfCommand:-trailingInputCarrotLength]
 
