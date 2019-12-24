@@ -80,11 +80,11 @@ _Baud rate of 9600 shows garbled text as it does not match the rate used by the 
 #### Correct Baud Rate
 
 !["Correct baud rate displays readable text"](imgs/correct_baud.png)
-_Readable output displaying indicating that the circuit is operating at a rate of 115200_
+_Readable output displaying, indicating that the circuit is operating at a rate of 115200_
 
 ### Serial is a Two-Way Street
 
-Once connected **a lot** of information will begin to print to the screen, seemingly flying by as the router boots up. This is just the debug output (refer to `boot_debug.log` for the full output). However, once the router has completed booting and the output begans to slow down it is also possible to interact with the device over the serial connection. By pressing enter, the terminal prompts for a username and login.
+Once connected **a lot** of information will begin to print to the screen, seemingly flying by as the router boots up. This is just the debug output (refer to `boot_debug.log` for the full output). However, once the router has completed booting and the output begins to slow down it is also possible to interact with the device over the serial connection. By pressing enter, the terminal prompts for a username and login.
 
 !["Correct baud rate displays readable text"](imgs/login_prompt.png)
 _Login prompt after pressing **enter** key_
